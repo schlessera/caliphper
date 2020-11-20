@@ -1,0 +1,31 @@
+{
+  "name": "caliphper",
+  "version": "1.0.0",
+  "description": "Benchmarking tool for PHP code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schlessera/caliphper.git"
+  },
+  "keywords": [
+    "php",
+    "benchmark",
+    "measure"
+  ],
+  "author": "Alain Schlesser <alain.schlesser@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schlessera/caliphper/issues"
+  },
+  "homepage": "https://github.com/schlessera/caliphper#readme",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
